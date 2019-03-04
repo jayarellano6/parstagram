@@ -24,6 +24,8 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSCameraUsageDescription</key>
+	<string>can we take picture pls?</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -31,8 +33,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key><true/>
+    </dict>
 </dict>
 </plist>
